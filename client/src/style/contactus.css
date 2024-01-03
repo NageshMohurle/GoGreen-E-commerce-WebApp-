@@ -1,0 +1,13 @@
+.contact-top {
+    position: relative;
+}
+
+.contactus-heading {
+    position: absolute;
+    width: 24%;
+    height: 53px;
+    top: 93px;
+    right: 122px;
+    color: #0c0c0c;
+    text-shadow: 5px 6px 13px #117e1b;
+}

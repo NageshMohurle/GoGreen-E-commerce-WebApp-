@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Island+Moments&family=Lobster&family=Open+Sans:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Quicksand&family=Roboto:wght@100;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* ----------Page not found CSS ---------- */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700px;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf .pnf-btn {
+  color: red;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+/* navbar css */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px gray;
+  --webkit-box-shadow: 0px 8px 6px -6px gray;
+  border-bottom: 0px solid gray !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+  transition: 2s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
+.navbar-brand .nav-logo {
+  margin-right: 10px;
+  color: green;
+}
+
+/* /////////////////Footer/////////////////// */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background-color: rgb(17, 87, 17);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffeffa;
+  /* border-bottom: 1px solid #ffeffa; */
+}
+
+.follow-us a span {
+  font-size: 19px;
+  box-shadow: 2px 0px 18px white;
+  border-radius: 24%;
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.follow-us a span:hover {
+  font-size: 19px;
+  background-color: white;
+  box-shadow: 2px 0px 18px green;
+  color: green;
+  border-radius: 24%;
+  transform: rotate(20deg);
+  padding: 10px;
+}
+
+
+/* --------Contact-us------------------ */
+
+.contactUs {
+  height: 500px;
+}
+
+
+/* -----------Register page ---------- */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}

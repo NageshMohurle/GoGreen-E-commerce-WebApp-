@@ -1,0 +1,63 @@
+.homeContainer {
+    margin-right: 17px;
+}
+
+.carousel{
+    margin-top: 80px;
+}
+
+.filter-checkbox {
+    transition: 0.4s ease-in-out;
+    border: 2px solid green;
+    color: green;
+}
+
+.filter-checkbox:hover {
+    background-color: green;
+    color: white;
+}
+
+.filter-money {
+    transition: 0.4s ease-in-out;
+    border: 2px solid green;
+    color: white;
+
+}
+
+.filter-money:hover {
+    background-color: green;
+    color: white;
+}
+
+.filter-radio {
+    color: green;
+    width: 100%;
+}
+
+.filter-radio:hover {
+    color: white;
+}
+
+.reset-btn {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-btn hr {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid rgb(8, 42, 8);
+    transition: 1s ease-in-out;
+}
+
+.reset-btn hr:hover {
+    border: 2px solid rgb(9, 48, 9);
+    width: 50%;
+}
