@@ -1,8 +1,8 @@
 .homeContainer {
-    margin-right: 17px;
+    width: 100%;
 }
 
-.carousel{
+.carousel {
     margin-top: 80px;
 }
 
@@ -60,4 +60,26 @@
 .reset-btn hr:hover {
     border: 2px solid rgb(9, 48, 9);
     width: 50%;
+}
+
+#products-homepage {
+    overflow: hidden;
+}
+
+#products-homepage img:hover {
+    transition: 1s ease-in-out;
+    scale: 1.1;
+}
+
+#products-homepage .price {
+    cursor: pointer;
+}
+
+.checkbox{
+    z-index: 0;
+}
+@media only screen and (max-width: 1009px) {
+    .carousel {
+        display: none;
+    }
 }
