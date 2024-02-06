@@ -32,7 +32,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className='mt-2 mb-0 position-relative bottom-0' style={{ position: 'relative', bottom: '0' }}>© 2023, GoGreen. All rights reserved.</p>
+                <p className='mt-2 mb-0 position-relative bottom-0' style={{ position: 'relative', bottom: '0' }}>	&#169; 2023, GoGreen. All rights reserved.</p>
             </div>
         </>
     )

@@ -24,22 +24,22 @@ const Header = () => {
     };
     return (
         <>
-            <nav className="navbar header-container navbar-expand-lg bg-body-tertiary me-2 " style={{ height: "10vh", width: '100%' }}>
-                <div className="container-fluid  d-flex justify-content-around">
-
-                    <div>
-                        <Link to="/" className="navbar-brand">
-                            <span class="fa-solid fa-seedling text-success"></span>GoGreen
-                        </Link>
+            <nav className="navbar header-container navbar-expand-lg bg-body-tertiary me-2">
+                <div className="container-fluid d-flex justify-content-between nav-parent">
+                    <div className="nav-left-item">
+                        <div>
+                            <Link to="/" className="navbar-brand">
+                                <span class="fa-solid fa-seedling text-success"></span>GoGreen
+                            </Link>
+                        </div>
+                        <div className="">
+                            <SearchInput  />
+                        </div>
                     </div>
-                    <div className="w-20 text-center">
-                        <SearchInput />
-                    </div>
-
-                    <ul className="navbar-nav right-item ms-auto mb-2">
+                    <ul className="navbar-nav nav-right mb-2">
                         <li className="nav-item">
-                            <NavLink to="/" className="nav-link ">
-                                <span className="bi bi-house-fill me-2"></span>Home
+                            <NavLink to="/" className="nav-link">
+                                <i className="bi bi-house-fill me-2"></i>Home
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -123,7 +123,7 @@ const Header = () => {
                                 </li>
                             </>
                         )}
-                        <li className="nav-item">
+                        <li className="nav-item cart">
                             <Badge count={cart?.length} showZero>
                                 <NavLink to="/cart" className="nav-link">
                                     <span className="bi bi-cart fw-bold text-warning" style={{ fontSize: "25px", }}></span>                                </NavLink>
